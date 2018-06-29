@@ -9,7 +9,7 @@
     left: 0;
     height: 100%;
     width: 100%;
-    background-color: blue;
+    background-color: black;
     border: black solid 3px;
     position: absolute;
 }
@@ -18,14 +18,16 @@
     left: 0;
     height: 25%;
     width: 80%;
-    
+    color: #41FF00;
 }
 .chatBox {
     padding: 15px;
-    width: 90%;
-    height: 350px;
+    margin-left: auto;
+    margin-right: auto; 
+    width: 70%;
+    height: 450px;
     border: white solid 3px;
-    position: relative;
+    position: absolute;
     background-color: black;
     overflow: auto;
 
@@ -39,11 +41,9 @@ input[type='text'], input{
     outline: none;
     caret-color: #41FF00;
     color: #41FF00;
-    margin-left: 5px;
+    margin-left: 20px;
     font-size: 14px;
-    width: 80%
-    
-    
+    width: 80%;
 }
 
 .name{
@@ -52,15 +52,20 @@ input[type='text'], input{
     display: inline-block;
 }
 .booth {
-    height: 150px;
-    width: 1000px;
-    border: dotted gold 2px;
+    height: 700px;
+    width: 200px;
+    background: black;
+    border: dotted white 2px;
     display: inline-block;
-    margin-left: 15%;
+    margin-left: 95%;
 }
-p{
-    display: inline-block;
-}
+
+
+
+
 button{
     display: inline-block;
+    height: 40px;
+    width: 90px;
+    margin: 30px;
 }
