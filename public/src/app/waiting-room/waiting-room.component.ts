@@ -60,9 +60,9 @@ export class WaitingRoomComponent implements OnInit {
       this.currentRoom = data
       console.log(this.currentRoom)
     })
-    // this.socket.on('newUserJoined', (data: any) => {
-    //   this.players.push(data)
-    // })
+    this.socket.on('newUserJoined', (data: any) => {
+      this.players.push(data)
+    })
     this.initializeSocket()
 
     this.socket.on('user_left', (data)=>{

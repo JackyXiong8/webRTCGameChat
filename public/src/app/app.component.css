@@ -7,8 +7,9 @@
     left: 0;
     width: 100%;
     height: 10%;
-    border: 5px black solid;
-    background-color: navy;
-    position: relative;
+    background-color: black;
+    position: absolute;
+    text-align: center;
+    color: #41FF00;
 }
 

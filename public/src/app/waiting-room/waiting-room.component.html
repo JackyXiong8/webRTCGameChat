@@ -1,17 +1,19 @@
 <div class="wrapper">
     <div class="players">
         <h3>Current roster:</h3>
-        <p *ngFor='let player of players'>{{player}}</p>
+        <p *ngFor='let player of players'>{{player}}<br></p>
+    
         <div class="booth">
-                <video id="video" #video autoplay autoplay></video>
-                <button (click)='startStream()'>Start stream</button>
-                <button (click)='stopStream()'>Stop streaming</button>
-            </div>
+            <video id="video" #video autoplay autoplay></video>
+            <button (click)='startStream()'>Start stream</button>
+            <button (click)='stopStream()'>Stop streaming</button>
+        </div>
+        <br>
         <button (click)='startGame()'>Start game</button>
         <br>
-        
 
     </div>
+    
 
     <div class="chatBox" (click)='focusText()'>
 
