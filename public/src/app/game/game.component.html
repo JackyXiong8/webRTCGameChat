@@ -1,0 +1,27 @@
+<div class="wrapper">
+
+  <div class="game">
+
+  </div>
+
+  <div class="leftDiv">
+    <div class="game">
+      <button [routerLink]="['/results']">Finish game</button>
+    </div>
+    <div class="booth">
+      <video id="video" #video autoplay autoplay></video>
+      <button (click)='startStream()'>Start stream</button>
+      <button (click)='stopStream()'>Stop streaming</button>
+    </div>
+    <div class="chatBox">
+      <h2>Chatbox here</h2>
+      <button (click)='sendMessage()'>Send Message</button>
+    </div>
+  </div>
+
+  <div class="rightDiv">
+
+
+  </div>
+
+</div>

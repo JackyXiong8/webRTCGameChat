@@ -1,0 +1,55 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.wrapper {
+    left: 0;
+    top: 10%;
+    background-color: navy;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: 3px black solid;
+}
+.leftDiv{
+    display: inline-block;
+    height: 80%;
+    width: 65%;
+    border: 3px solid white;
+    float: left;
+    padding: 10px;
+    overflow: hidden;
+    position: relative;
+}
+.game {
+    display: inline-block;
+    position: relative;
+    height: 100%;
+    width: 75%;
+    border-right: white solid 3px;
+    position: absolute;
+}
+.booth {
+    height: 150px;
+    width: 200px;
+    border: dotted gold 2px;
+    float: right;
+    display: inline-block;
+}
+.rightDiv{
+    display: inline-block;
+    margin-left: 3%;
+    height: 83%;
+    width: 27%;
+    border: 3px solid red;
+}
+.chatBox{
+    display: inline-block;
+    margin-top: 50%;
+    height: 25%;
+    width: 70%;
+    border: 3px solid white;
+    position: absolute;
+    
+    
+}

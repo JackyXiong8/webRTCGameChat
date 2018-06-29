@@ -1,0 +1,28 @@
+<div class="wrapper">
+    <div class="players">
+        <h3>Current roster:</h3>
+        <p *ngFor='let player of players'>{{player}}</p>
+        <div class="booth">
+                <video id="video" #video autoplay autoplay></video>
+                <button (click)='startStream()'>Start stream</button>
+                <button (click)='stopStream()'>Stop streaming</button>
+            </div>
+        <button (click)='startGame()'>Start game</button>
+        <br>
+        
+
+    </div>
+
+    <div class="chatBox" (click)='focusText()'>
+
+        <div class="box">
+            <p *ngFor='let message of messages' class="messages">{{message}}</p>
+        </div>
+        <br>
+        <form (submit)='sendMessage(thisForm)' #thisForm='ngForm'>
+            <p class="name">Rx7 CompaQ:~ {{localName}}$ </p>
+            <input type="text" name="newMessage" autocomplete="off" ngModel #textInput>
+            <input type="submit" value="Send" hidden>
+        </form>
+    </div>
+</div>

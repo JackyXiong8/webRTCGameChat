@@ -1,0 +1,66 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.wrapper{
+    top: 10%;
+    padding: 10px;;
+    margin: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: blue;
+    border: black solid 3px;
+    position: absolute;
+}
+
+.players{
+    left: 0;
+    height: 25%;
+    width: 80%;
+    
+}
+.chatBox {
+    padding: 15px;
+    width: 90%;
+    height: 350px;
+    border: white solid 3px;
+    position: relative;
+    background-color: black;
+    overflow: auto;
+
+}
+.messages{
+    color: #41FF00;
+}
+input[type='text'], input{
+    background-color: transparent;
+    border: transparent;
+    outline: none;
+    caret-color: #41FF00;
+    color: #41FF00;
+    margin-left: 5px;
+    font-size: 14px;
+    width: 80%
+    
+    
+}
+
+.name{
+    font-size: 14px;
+    color: #41FF00;
+    display: inline-block;
+}
+.booth {
+    height: 150px;
+    width: 1000px;
+    border: dotted gold 2px;
+    display: inline-block;
+    margin-left: 15%;
+}
+p{
+    display: inline-block;
+}
+button{
+    display: inline-block;
+}
